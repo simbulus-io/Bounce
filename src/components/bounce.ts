@@ -24,14 +24,14 @@ export default class Bounce extends Vue {
   public bounce() { // this gets called every x ms -> update the position iteratively
     if (this.down) {
       if (this.y > 50) {
-        this.y - 40 < 0 ? this.y -= Math.abs(this.y - 40) : this.y -= 40;
+        this.y - 30 < 0 ? this.y -= Math.abs(this.y - 30) : this.y -= 30;
       } else {
         this.down = false,
         this.randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
       }
     } else {
       if (this.y < 560) {
-        this.y += 40;
+        this.y += 45;
       } else {
         this.down = true,
         this.randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
@@ -46,7 +46,7 @@ export default class Bounce extends Vue {
       }
     } else {
       if (this.x < 550) {
-        this.x + 40 > 600 ? this.x += Math.abs(600 - this.x) : this.x += 40;
+        this.x + 42 > 600 ? this.x += Math.abs(600 - this.x) : this.x += 42;
       } else {
         this.left = true;
         this.randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
