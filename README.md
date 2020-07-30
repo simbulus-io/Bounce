@@ -1,7 +1,8 @@
 # Bounce!
-Put your programming knowledge to the test by making an SVG ball do something quirky or creative. Familiarize yourself with the single component Vue project and get going! You can change anything you want, but you shouldn't need to change much more than bounce.ts and Bounce.vue. 
+Put your programming knowledge to the test by making an SVG ball do something quirky or creative. Familiarize yourself with the single component Vue project and get started! You can change anything you want, but your work should mostly just be in bounce.ts.
 
-Note that the `bounce()` function is called every 100ms, this is where you can start tinkering.
+Inside bounce.ts, there is the `bounce()` function where you can start tinkering. Notice that it is called every 100ms.
+
 
 # Getting Started
 1. Clone this repo
