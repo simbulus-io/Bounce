@@ -4,7 +4,21 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class Bounce extends Vue {
 
+
+  private readonly radius = 40;
   private readonly height = 600;
+
+  // The 0,0 coordinate is top left of the box
+  // positive x is to the right
+  // positive y is down
+  //
+  // (0,0)---------- x
+  //   |
+  //   |
+  //   |
+  //   |
+  //   y
+
   private x: number = 300;
   private y: number = 560;
 
