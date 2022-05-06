@@ -6,7 +6,7 @@
 
 <script lang="ts" src="./app.ts"/>
 
-<style lang="scss">
+<style lang="css">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

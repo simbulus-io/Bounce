@@ -16,19 +16,21 @@
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style scoped lang="css">
 .box {
   display: flex;
   align-items: center;
   justify-content: center;
-  .item {
+}
+
+.item {
     height: 600px;
     width: 600px;
     border: 5px solid;
     border-color: blueviolet;
     background: lightgrey;
-  }
 }
+
 h3 {
   margin: 40px 0 0;
 }
